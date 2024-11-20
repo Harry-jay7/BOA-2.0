@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Of America - Transfers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+    <header>
+        <div class="header-container">
+            <img src="BOA.PNG" alt="Bank of America Logo" class="logo" width="350">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="account.html">Accounts</a></li>
+                    <li><a href="transfers.html">Transfers</a></li>
+                    <li><a href="support.html">Transaction History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="account-summary">
+            <h2>Publisher Clearing House</h2>
+            <img src="WhatsApp Image 2024-09-19 at 11.55.22 AM.jpeg" alt="Profile Picture" class="profile-pic">
+            <p style="font-size: 35px;"><strong>Available balance:</strong></p><h1 style="font-size: 30px;">$1,262,680.00</h1>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bank Of America</p>
+    </footer>
+    <div id="transaction-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Notification</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modal-message"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

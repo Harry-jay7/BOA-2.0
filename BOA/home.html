@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Of America - Transfers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+    <header>
+        <div class="header-container">
+            <img src="BOA.PNG" alt="Bank of America Logo" class="logo" width="350">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="account.html">Accounts</a></li>
+                    <li><a href="transfers.html">Transfers</a></li>
+                    <li><a href="support.html">Transaction History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <main>
+            <section id="account-summary">
+                <h1 style="font-size: 30px;">Welcome</h1>
+                <h2>Publisher Clearing House</h2>
+                <img src="WhatsApp Image 2024-09-19 at 11.55.22 AM.jpeg" alt="Profile Picture" class="profile-pic">
+            </section>
+        <section id="welcome">
+            <h2></h2>
+            <p>Your trusted partner for all your banking needs. We offer a range of services to help you manage your finances effectively.</p>
+        </section>
+        <section id="services">
+            <div class="service">
+                <img src="download .jpeg" alt="Online Banking" >
+                <h3>Online Banking</h3>
+                <p>Manage your accounts online with ease. Check balances, make transfers, and more from anywhere.</p>
+            </div>
+            <div class="service">
+                <img src="laon.jpeg" alt="Loan Services" >
+                <h3>Loan Services</h3>
+                <p>Explore our loan options for personal, auto, and home loans. Get pre-approved and start your journey today.</p>
+            </div>
+            <div class="service">
+                <img src="images (6).jpeg" alt="Investment Options" >
+                <h3>Investment Options</h3>
+                <p>Invest in a variety of financial products to grow your wealth. Speak with our advisors to find the best options for you.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bank Of America</p>
+    </footer>
+    <div id="transaction-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Notification</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modal-message"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

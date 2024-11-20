@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Of America - Transfers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+    <header>
+        <div class="header-container">
+            <img src="BOA.PNG" alt="Bank of America Logo" class="logo" width="350">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="account.html">Accounts</a></li>
+                    <li><a href="transfers.html">Transfers</a></li>
+                    <li><a href="support.html">Transaction History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="pin-entry">
+            <h2>Enter PIN</h2>
+            <form id="pin-form">
+                <label for="pin">PIN:</label>
+                <input type="password" id="pin" required>
+                <button type="button">
+                    <a href="transfers.html">Transfer</a>
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bank Of America</p>
+    </footer>
+    <div id="error-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Error</h2>
+            </div>
+            <div class="modal-body">
+                <p id="error-message">Please enter your PIN to proceed.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="redirectToTransfer()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

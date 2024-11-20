@@ -1,0 +1,392 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('download\ \(7\).jpeg') no-repeat center center fixed;
+    background-size: cover;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('download\ \(7\).jpeg') no-repeat center center fixed;
+    background-size: cover;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Login Page Styles */
+#login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-box {
+    background-color: rgba(228, 73, 49, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#login-box h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ddd;
+}
+
+#login-box input[type="text"],
+#login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e54938;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#login-box input[type="submit"]:hover {
+    background-color: #d1220e;
+}
+
+#login-box a {
+    display: block;
+    margin-top: 10px;
+    color: #e54938;
+    text-decoration: none;
+}
+
+#login-box a:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    background-color: rgba(228, 73, 49, 0.9); /* Deep red with transparency */
+    color: white;
+    padding: 1em 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border-radius: 8px;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Welcome Section */
+#welcome {
+    text-align: center;
+}
+
+#welcome h2 {
+    font-size: 2em;
+}
+
+#welcome p {
+    font-size: 1.2em;
+}
+
+/* Services Section */
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Account Summary */
+#account-summary {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Transaction History Styles */
+#transaction-history {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#transaction-history h2 {
+    margin-top: 0;
+}
+
+#transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#transaction-history table th,
+#transaction-history table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#transaction-history table th {
+    background-color: #e54938; /* Deep red */
+    color: white;
+}
+
+#transaction-history table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Transfer Funds Section */
+#transfer-funds {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#transfer-funds form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#transfer-funds label {
+    font-weight: bold;
+}
+
+/* Scheduled Transfers Section */
+#scheduled-transfers {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Support Form Section */
+#support-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#support-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#support-form label {
+    font-weight: bold;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+}
+
+/* Contact Information Section */
+#contact-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Support Icon */
+.support-icon {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-header,
+.modal-footer {
+    padding: 10px;
+    background-color: #e54938; /* Deep red */
+    color: white;
+}
+
+.modal-header .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-header .close:hover,
+.modal-header .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(228, 73, 49, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    #services {
+        flex-direction: column;
+    }
+    
+    .service {
+        flex: 1 1 100%;
+    }
+    
+    main {
+        margin: 10px;
+    }
+}
